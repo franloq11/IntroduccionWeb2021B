@@ -1,0 +1,37 @@
+/* link no visitado */
+
+a:link {
+    color: red
+}
+
+
+/* link visitado */
+
+a:visited {
+    color: green;
+}
+
+
+/* pasar crusor */
+
+a:hover {
+    color: palevioletred;
+}
+
+
+/* mantener click */
+
+a:active {
+    color: purple;
+}
+
+
+/* selector de atributos */
+
+a[target=_blank] {
+    background-color: yellow;
+}
+
+body {
+    background: yellowgreen url(./../../assets/img/walter.jpg) no-repeat right fixed;
+}
