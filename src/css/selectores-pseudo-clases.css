@@ -8,7 +8,7 @@ a:link {
 /* link visitado */
 
 a:visited {
-    color: green;
+    color: rgb(10, 141, 39);
 }
 
 
@@ -33,5 +33,5 @@ a[target=_blank] {
 }
 
 body {
-    background: yellowgreen url(./../../assets/img/walter.jpg) no-repeat right fixed;
+    background: rgb(203, 207, 212) url(./../../assets/img/walter.jpg) no-repeat right fixed;
 }
