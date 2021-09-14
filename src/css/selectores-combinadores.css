@@ -1,0 +1,5 @@
+/* selector adyacente (~) */
+
+div~p {
+    background-color: yellow;
+}
