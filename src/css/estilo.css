@@ -1,0 +1,18 @@
+label {
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+form {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+#submit {
+    width: 85px;
+    height: 35px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}

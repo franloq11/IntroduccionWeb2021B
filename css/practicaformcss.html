@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con estilo css</title>
+    <link rel="stylesheet" href="./../src/css/estilo.css">
+</head>
+
+<body>
+    <form>
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" name="textemail" placeholder="ejemplo@email.com">
+        </div>
+
+        <label for="contraseña">Password:</label>
+        <input id="contraseña" name="contraseña" placeholder="Ingresa tu password">
+
+        <label for="direccion">Direccion:</label>
+        <input id="direccion" name="direccion" placeholder="Ingresa tu Dirección">
+
+        <label for="direccion2">Direccion 2:</label>
+        <input id="direccion2" name="direccion2" placeholder="Ingresa tu Dirección 2">
+
+        <label for="ciudad">Ciudad:</label>
+        <input id="ciudad" name="ciudad" type="ciudad" placeholder="Ingresa tu Ciudad">
+
+
+        <!-- Select -->
+        <div>
+            <div>
+                <label for="estado">Estado:</label>
+            </div>
+            <!-- con "disabled" puedo deshabilitar el input -->
+            <select name="est" id="est">
+        <option value="">--Seleccionar Estado--</option>
+        <option value="jal">Jalisco</option>
+        <option value="mich">Michoacan</option>
+        <option value="sin">Sinaloa</option>
+        <option value="nay">Nayarit</option>
+    </select>
+        </div>
+
+        <label for="postal">Codigo Postal:</label>
+        <input id="postal" name="postal" type="postal" placeholder="Ingresa tu codigo postal">
+
+        <div>
+            <input type="checkbox" name="registrar" id="registrar" value="registrar">
+            <label for="registrar">Registrarme</label>
+        </div>
+
+        <input id="submit" name="submit" type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
