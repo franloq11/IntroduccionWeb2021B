@@ -8,14 +8,14 @@ a:link {
 /* link visitado */
 
 a:visited {
-    color: rgb(10, 141, 39);
+    color: rgb(28, 32, 29);
 }
 
 
 /* pasar crusor */
 
 a:hover {
-    color: palevioletred;
+    color: rgb(53, 40, 238);
 }
 
 
@@ -33,5 +33,5 @@ a[target=_blank] {
 }
 
 body {
-    background: rgb(203, 207, 212) url(./../../assets/img/walter.jpg) no-repeat right fixed;
+    background: rgb(13, 139, 61) url(./../../assets/img/walter.jpg) no-repeat right fixed;
 }
