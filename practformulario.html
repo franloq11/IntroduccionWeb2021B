@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica Formulario con HTML</title>
+
+</head>
+
+<body style="font-family: sans-serif; padding-left: 80px;">
+    <div style="width: 80%; background-color: #faf9f9;">
+        <form action="./action.html" method="get">
+
+            <div style="display: flex; padding: 5px;">
+                <!-- fila -->
+                <div style="width: 50%; padding-right: 10px;">
+                    <!-- columna -->
+                    <div>
+                        <label for="email">Email</label>
+                    </div>
+                    <input type="text" name="email" id="email" placeholder="ejemplo@email.com" style="width: 100%; border-color: gray; border-style: solid; border-radius: 5px; border-width: 1px; 
+                        padding-top: 5px; padding-bottom: 8px;">
+                </div>
+                <div style="width: 50%; padding-right: 10px;">
+                    <!-- columna -->
+                    <div>
+                        <label for="password">Password</label>
+                    </div>
+                    <input type="password" name="password" id="password" placeholder="password..." style="width: 100%; border-color: gray; border-style: solid; border-radius: 5px; border-width: 1px;
+                    padding-top: 5px; padding-bottom: 8px; ">
+                </div>
+            </div>
+
+            <div style="display: flex; padding: 5px;">
+                <!-- fila -->
+                <div style="width: 100%; padding-right: 10px;">
+                    <!-- columna -->
+                    <div>
+                        <label for="address">Address</label>
+                    </div>
+                    <input type="text" name="address" id="address" placeholder="1234 Main St..." style="width: 100%;border-color: gray; border-style: solid; border-radius: 5px; border-width: 1px;
+                    padding-top: 5px; padding-bottom: 8px;  ">
+                </div>
+            </div>
+
+            <div style="display: flex; padding: 5px;">
+                <!-- fila -->
+                <div style="width: 100%; padding-right: 10px;">
+                    <!-- columna -->
+                    <div>
+                        <label for="address">Address 2</label>
+                    </div>
+                    <input type="text" name="address" id="address" placeholder="1234 Main St..." style="width: 100%;border-color: gray; border-style: solid; 
+                    border-radius: 5px; border-width: 1px; padding-top: 5px; padding-bottom: 8px;">
+                </div>
+            </div>
+
+            <div style="display: flex; padding: 5px;">
+                <!-- fila -->
+                <div style="width: 50%; padding-right: 10px;">
+                    <!-- columna -->
+                    <div>
+                        <label for="city">City</label>
+                    </div>
+                    <input type="text" name="city" id="city" placeholder="" style="width: 100%; border-color: gray; border-style: solid;
+                     border-radius: 5px; border-width: 1px; padding-top: 5px; padding-bottom: 8px;">
+                </div>
+
+                <div style="width: 30%; padding-right: 10px;">
+                    <!-- columna -->
+                    <div>
+                        <label for="state">State</label>
+                    </div>
+                    <select name="state" id="state" placeholder="Choose..." style="width: 100%; border-color: gray; border-style: solid; border-radius: 5px;
+                     border-width: 1px; padding-top: 5px; padding-bottom: 8px;">
+                    <option value="">Chose..</option>
+                    <option value="jal">Jalisco</option>
+                    <option value="aguas">Aguascalientes</option>
+                    <option value="baja">Baja California</option>
+                    <option value="camp">Campeche</option>
+                    <option value="col">Colima</option>
+                    <option value="chiap">Chiapas</option>
+                    <option value="cuah">Cuahuila</option>
+                    <option value="chih">Chihuahua</option>
+                    <option value="dur">Durango</option>
+                    <option value="guan">Guanajuato</option>
+                    <option value="guerr">Guerrero</option>
+                    <option value="hidal">Hidalgo</option>
+                </select>
+
+                </div>
+
+                <div style="width: 20%; padding-right: 10px;">
+                    <!-- columna -->
+                    <div>
+                        <label for="zip">Zip</label>
+                    </div>
+                    <input type="text" name="zip" id="zip" placeholder="" style="width: 100%;  border-color: gray; border-style: solid;
+                   border-radius: 5px; border-width: 1px; padding-top: 5px; padding-bottom: 8px; ">
+                </div>
+
+
+            </div>
+
+            <div>
+                <input type="checkbox" name="registrar" id="registrar" value="registrar">
+                <label for="registrar">Check me out</label>
+            </div>
+
+            <div style="display: flex; padding: 5px;">
+                <!-- fila -->
+                <div style="width: 100%; padding-right: 10px;">
+                    <!-- columna -->
+                    <input type="submit" value="Sign in" style="background-color: rgb(59, 71, 233); color: whitesmoke; border-radius: 5px;
+                            border-style: solid; border-color: rgb(59, 71, 233); padding-top: 5px; padding-bottom: 5px;">
+                </div>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>

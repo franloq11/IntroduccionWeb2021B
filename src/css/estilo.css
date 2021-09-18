@@ -5,8 +5,27 @@ label {
 }
 
 form {
-    margin: 0 auto;
-    width: 1200px;
+    padding: 5px;
+    padding-right: 50px;
+    width: 80%;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+text {
+    padding: 5px;
+    padding-right: 50px;
+    width: 80%;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #submit {
@@ -15,4 +34,5 @@ form {
     border: none;
     margin-top: 20px;
     cursor: pointer;
+    background-color: blue;
 }
